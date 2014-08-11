@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/maxwellwu/duesam/lib/nlapp'
+let g:netrw_dirhist_2='/home/maxwellwu/duesam/lib/nlapp/include'
+let g:netrw_dirhist_3='/home/maxwellwu/duesam/lib/nlapp/include/nestlabs'
+let g:netrw_dirhist_4='/home/maxwellwu/duesam/lib/nlapp/include/nestlabs/app'
+let g:netrw_dirhist_5='/home/maxwellwu/duesam/lib/nlplatform/platform/src'
+let g:netrw_dirhist_6='/home/maxwellwu/duesam/lib/nlplatform/soc/include'
