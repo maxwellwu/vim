@@ -11,8 +11,14 @@ set expandtab
 "" \ + W = clear whitespace
 nmap <leader>W :%s/\s\+$//<cr>:let @/=''<cr>
 
+"" \ + c = cd to current file directory
+nmap <leader>c :lcd %:p:h<cr>
+
 "" \ + / = clear search highlight
 nnoremap <silent> <leader>/ :nohlsearch<cr>
+
+"" { gives a closing brace and positions cursor in the middle
+inoremap { {<CR>}<Esc>ko
 
 set showbreak=↪
 set number
@@ -24,6 +30,8 @@ set mouse=a
 set smartcase
 set incsearch
 set wildmenu
+
+set colorcolumn=80
 
 set tags=./tags;/,tags;/
 
